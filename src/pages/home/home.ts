@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'page-home',
@@ -7,8 +6,20 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  public loadProgress : number = 0;
+
+
+  constructor() {
 
   }
 
+  ngOnInit() {
+    // Test interval to show the progress bar
+    setInterval(() => {
+      if (this.loadProgress < 100)
+        this.loadProgress += 1;
+      else
+        clearInterval(this.loadProgress);
+    }, 50);
+  }
 }

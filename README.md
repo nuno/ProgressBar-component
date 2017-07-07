@@ -1,26 +1,16 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Progress bar component in Angular/Ionic
+This is a demo of a very simple progress-bar component done using Ionic 3.
 
-## How to use this template
+![Dependencies status](https://david-dm.org/dnchia/Ionic3-ProgressBar-Component.svg)
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+## How to use it
+The demo can be executed like any other Ionic application, using the Ionic CLI command: `ionic serve` to execute it in development mode.
+The demo is optimized to work in device-like views, but it will work without any problem in web views.
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+## References
+This demo example was done following the tutorial made by Joshua Morony ([@joshuamorony](https://github.com/joshuamorony)) in 
+[Build a Simple Progress Bar Component in Ionic 2 & 3](https://www.joshmorony.com/build-a-simple-progress-bar-component-in-ionic-2/), all credits to him.
 
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
-
-Then, to run it, cd into `myBlank` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+## In the future
+This is a very simple progress bar component, I pretend to improve it including more variables in order to
+customize it, for example, to specify the maximum, the color or a loading pattern.
