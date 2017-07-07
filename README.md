@@ -1,7 +1,7 @@
 # Progress bar component in Angular/Ionic
 This is a demo of a very simple progress-bar component done using Ionic 3.
 
-![Dependencies status](https://david-dm.org/dnchia/Ionic3-ProgressBar-Component.svg)
+![Dependencies status](https://david-dm.org/dnchia/ProgressBar-Component.svg)
 
 ## How to use it
 The demo can be executed like any other Ionic application, using the Ionic CLI command: `ionic serve` to execute it in development mode.
